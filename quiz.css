@@ -1,0 +1,82 @@
+
+
+#quiz {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+#quiz h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #ff007f;
+}
+
+#quiz h3 {
+    color: #ff007f;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    text-shadow: 0 0 6px #ff007f;
+}
+
+#quiz input[type="radio"] {
+    accent-color: #ff007f;
+    margin: 10px 8px;
+    cursor: pointer;
+}
+
+#quiz label {
+    color: #d1c4e9;
+    font-size: 1rem;
+    line-height: 1.8;
+    cursor: pointer;
+}
+
+#quiz label:hover {
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff;
+}
+
+#quiz button,
+#quiz input[type="reset"],
+#quiz input[type="submit"] {
+    background-color: #1a0b2e;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    transition: 0.3s ease;
+}
+
+#quiz button:hover,
+#quiz input[type="reset"]:hover,
+#quiz input[type="submit"]:hover {
+    background-color: #ff007f;
+    color: white;
+    border-color: #ff007f;
+    box-shadow: 0 0 15px #ff007f;
+}
+
+#quiz hr {
+    border: 1px dashed #ff007f;
+    margin: 25px 0;
+}
+
+#quiz p {
+    color: #00ffff;
+}
+
+#quiz .question {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: rgba(13, 2, 31, 0.6);
+    border: 1px solid rgba(0, 255, 255, 0.4);
+    border-radius: 8px;
+}
